@@ -1,0 +1,201 @@
+@font-face {
+  font-family: "ambleregular";
+  src: url("fonts/Amble-Regular-webfont.woff");
+  src: url("fonts/Amble-Regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  /* background-image: url("images/signature_ok.jpg"); */
+  /* background-color: papayawhip; */
+  background: url("images/arrière-plan-gris.jpg")  fixed ; 
+  font-family: "ambleregular", Impact, "Arial Black", Arial, Helvetica,
+  sans-serif;
+}
+h1,
+h2 {
+  width: 50%; 
+  min-width: 500px;
+  align-content: center;
+  background: rgb(187, 91, 91);
+  text-align: center;
+  border: 3px orange double;
+  border-radius: 0px 0px 20px 20px;
+  box-shadow: 6px 6px 6px black;
+  text-shadow: 6px 6px 3px black;
+  margin: auto;
+}
+h1 {
+    background: rgb(67, 128, 146);
+}
+p {
+  color: crimson;
+  font-weight: bold;
+  font-size: 14px;
+}
+li,
+p{
+   width:500px; 
+   min-width: 500px; 
+  /* height:fit-content; */
+  /* border: 1px solid black;  */
+  text-align: left;
+  font-size: 1em;
+ 
+  /* padding: 2px; */
+  padding-bottom: 10px;
+  margin: auto; 
+}
+p {
+    text-align: center;
+    padding-top: 20px;
+}
+
+h1,
+h2 {
+  color:lemonchiffon; /* Commentaires */
+  font-style: italic;
+  /* text-decoration: underline; */
+  line-height: 2.8em;
+}
+/* h2 {
+  background: darkorchid;
+  text-align: center;
+} */
+h3 {
+  background: rgba(
+    135,
+    176,
+    238,
+    1
+  ); /* on peut aussi modifier l'opacité par le param "a" */
+  opacity: 1;
+  text-align: center;
+  color: white; /* Commentaires */
+  border: 4px blue double;
+  border-radius: 0px 20px 20px 0px;
+  box-shadow: 6px 6px 6px black;
+  text-shadow: 6px 4px 2px black;
+  line-height: 2.8em;
+}
+/* h3  em {
+  color: yellow;
+} */
+/* .experience {
+  color: tomato;
+} */
+
+/* #competences
+{
+    color:yellow;
+} */
+h3 + ul,
+h2 + ul {
+  color: sienna;
+}
+figure[title] {
+  color: yellow;
+}
+
+.logo {
+  float: inline-start;
+  border-radius: 10px;
+}
+.autreexp {
+  clear: both;
+}
+/* h2
+{
+    color:rgb(221, 236, 49);
+} */
+.infos {
+  text-align: center;
+}
+li {
+  line-height: 2em;
+}
+.contact, .tools {
+    text-align: center;
+    padding-top: 20px;
+  }
+
+.linkedin
+{
+    text-align: center;
+    /* line-height: 2em; */
+    font-size: 2em;
+    /* background: rgb(147, 178, 224); /* on peut aussi modifier l'opacité par le param "a" */
+      /* opacity: 1;  */
+      text-align: center;
+      /* border: 4px blue double;
+      border-radius: 0px 20px 20px 0px;
+      box-shadow: 6px 6px 6px black; */
+      text-shadow: 6px 4px 2px black;
+
+}
+/* comportements dynamyques */
+a:hover {
+  color: green;
+}
+li:hover {
+  border-left: 20px solid transparent;
+}
+
+a:visited {
+  color: violet;
+} 
+#conteneur
+{
+    display: flex;
+     flex-direction: row; 
+     justify-content:center; 
+    flex-wrap:wrap;
+    align-items: center;
+    align-content: space-around; 
+    border: 2px solid #444;
+    height: 500px;
+}
+.element
+{
+    width: 150px;
+    height: 100px;
+}
+/* .element {
+    margin: auto;
+} */
+.element:nth-child(n)
+{
+background-color: orange;
+/* flex: 2; */
+/* margin:auto; */
+/* align-self: flex-end; */
+}
+.element:nth-child(2n)
+{
+background-color: blue;
+/* flex: 1; */
+
+}
+.element:nth-child(3n)
+{
+background-color: yellowgreen;
+}
+nav{
+    /* float: left; */
+    display:inline-block;
+    position:relative;
+    top: 20px;
+    vertical-align: top;
+    width: 200px;
+    border: 1px solid black;
+
+}
+section
+{
+    display:inline-block;
+    vertical-align:top;
+
+    /* margin-left: 220px; */
+    border: 1px solid blue;
+}
+
