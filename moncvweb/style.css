@@ -36,6 +36,9 @@ body {
   font-size: 0.7em;
   color: white;
   margin: auto;
+  border-radius: 40px;
+  box-shadow: 4px 4px 4px #1c1a19;
+  border: 5px solid white;
 }
 #banniere h1{
   text-align: end;
@@ -145,7 +148,7 @@ nav a {
 #identite img{
   border-radius: 100px;
   box-shadow: 4px 4px 4px #1c1a19;
-  border: 4px solid white;
+  border: 5px solid white;
   margin-top: -100px;
 }
 #compeforms {
