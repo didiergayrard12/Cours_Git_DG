@@ -40,7 +40,14 @@ body {
 #banniere h1{
   text-align: end;
   padding-top: 200px;
-  padding-right: 350px;
+  padding-right: 450px;
+  color:white;
+  font-size: 1.4em;
+}
+h1,h2{
+  line-height: 1em;
+  margin: 5px;
+  color: #760001;
 }
 p{
   /* border: 1px solid black; */
@@ -53,6 +60,7 @@ p{
   background:   
   url('images/separateur.png') repeat-x top, 
   url('images/ombre.png') repeat-x top;
+  margin-top: 20px;
 }
 #rubriques{
   flex:3;
@@ -60,6 +68,9 @@ p{
 }
 #asides{
   flex:1.2
+}
+h1,h2{
+ font-size: 1.2em; 
 }
 .logos {
   display:flex;
@@ -129,7 +140,7 @@ nav a {
   border-radius: 100px;
   box-shadow: 4px 4px 4px #1c1a19;
   border: 4px solid white;
-  margin-top: -70px;
+  margin-top: -100px;
 }
 
 
