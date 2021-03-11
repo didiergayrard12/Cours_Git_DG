@@ -25,7 +25,7 @@ body {
   color: #181818;
 }
 #cventier {
-  width: 80%;
+  width: 90%;
   margin: auto;
   min-width: 500px;
 }
@@ -33,20 +33,106 @@ body {
   background: url("images/ardennes_banniere.jpg") repeat-x center;
   height: 234px;
   width: 800px;
-  font-size: 0.5em;
+  font-size: 0.7em;
   color: white;
   margin: auto;
 }
 #banniere h1{
   text-align: end;
   padding-top: 200px;
-  padding-right: 500px;
+  padding-right: 350px;
 }
 p{
-  border: 1px solid black;
+  /* border: 1px solid black; */
   line-height: 1em;
   margin: 2px;
 }
+#corpsducv {
+  display:flex;
+  flex-direction: row;
+  background:   
+  url('images/separateur.png') repeat-x top, 
+  url('images/ombre.png') repeat-x top;
+}
+#rubriques{
+  flex:3;
+  margin-right: 20px;
+}
+#asides{
+  flex:1.2
+}
+.logos {
+  display:flex;
+  justify-content: center;
+   /* border: 1px solid blue;  */
+  font-family: 'Dayrom', Arial, sans-serif;
+  font-size: 10px;
+  color: #760001;
+  height: 70px;
+  align-items:flex-end;
+}
+.logos img {
+  width: 100px;
+  height: 50px;
+}
+#philips img{
+  width: 50px;
+  height: 50px;
+}
+.gpuce {
+  list-style-image: url('images/puce_small.png');
+    /* padding-left: 2px; */
+}
+.ppuce {
+  list-style-image: url('images/ico_liensexterne.png');
+    /* padding-left: 2px; */
+}
+footer{
+  /* border: 1px solid #181818;  */
+  padding-top: 25px;
+  color: #760001;
+  font-family: 'Dayrom', Arial, sans-serif;
+}
+footer h2{
+  text-align: center;
+}
+#interets li {
+  text-align: center;
+  list-style-image: url('images/puce_small.png');
+}
+#interets a {
+  text-decoration: none;
+  padding-left: 15px;
+ 
+}
+nav a {
+  text-decoration: none;
+  padding-left: 15px;
+  color: #760001;
+  font-family: 'Dayrom', Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.separ{
+  background:  
+  /* url('images/ico_top.png') no-repeat top center,  */
+  url('images/separateur.png') repeat-x top, 
+  url('images/ombre.png') repeat-x top;
+  height: 20px ;
+}
+.click{
+  display:flex;
+  justify-content: center;
+}
+#identite img{
+  border-radius: 100px;
+  box-shadow: 4px 4px 4px #1c1a19;
+  border: 4px solid white;
+  margin-top: -70px;
+}
+
+
 
 
 
