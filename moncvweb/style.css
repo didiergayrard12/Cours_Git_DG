@@ -97,9 +97,12 @@ h1,h2{
   list-style-image: url('images/puce_small.png');
     /* padding-left: 2px; */
 }
+.gpuce p {
+  text-align: justify;
+}
 .ppuce {
   list-style-image: url('images/ico_liensexterne.png');
-    /* padding-left: 2px; */
+  padding-left: 2px; 
 }
 footer{
   /* border: 1px solid #181818;  */
