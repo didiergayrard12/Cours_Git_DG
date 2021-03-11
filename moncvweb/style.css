@@ -61,6 +61,7 @@ p{
   /* border: 1px solid black; */
   line-height: 1.2em;
 }
+/* contient rubriques et asides */
 #corpsducv {
   display:flex;
   flex-direction: row;
@@ -175,6 +176,66 @@ section .gpuce{
 section .gpuce li {
   margin-left: 25px;
   margin-right: 25px;
+}
+@media all and (max-width: 1024px)
+{
+  #banniere
+  {
+    display:none; 
+    /* width: 400px;
+    height: 100px; */
+
+  }
+  #banniere h1{
+   
+    padding-top: 200px;
+    padding-right: 100px;
+    color:white;
+    font-size: 1.2em;
+  }
+  #corpsducv{
+    flex-direction: column;
+   
+  }
+  #identite img{
+    float: right;
+    margin-top: 0px;
+    width: 120px;
+  }
+  #asides{
+    background:  
+    /* url('images/ico_top.png') no-repeat top center,  */
+    url('images/separateur.png') repeat-x top, 
+    url('images/ombre.png') repeat-x top;
+    height: 20px ;
+  }
+  .click{
+    display: none;
+  }
+  section ul{
+    flex-direction: column;
+  }
+  #qualite{
+    background: url("images/ardennes_banniere.jpg") repeat-x center;
+    height: 100px;
+  }
+  #qualite h1, #qualite h2{
+    margin: auto;
+    text-align: right;
+    margin-top: 5px;
+  }
+  #compeforms{
+    flex-direction: column;
+    
+  }
+  #competences h2{
+    background:  
+    /* url('images/ico_top.png') no-repeat top center,  */
+    url('images/separateur.png') repeat-x top, 
+    url('images/ombre.png') repeat-x top;
+    height: 20px ;
+    padding-top: 10px;
+  }
 }
 
 
