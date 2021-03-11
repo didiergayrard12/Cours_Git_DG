@@ -85,7 +85,7 @@ h1,h2{
   height: 50px;
   width: 80%;
   align-items:flex-end;
-  background-color: blanchedalmond;
+  background-color: rgba(200, 200, 200, 1);
   margin:auto;
 }
 .logos img {
