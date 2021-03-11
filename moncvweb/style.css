@@ -81,7 +81,7 @@ h1,h2{
 }
 .logos {
   display:flex;
-  justify-content: space-around;
+  justify-content:left;
    /* border: 1px solid blue;  */
   font-family: 'Dayrom', Arial, sans-serif;
   font-size: 10px;
@@ -92,7 +92,7 @@ h1,h2{
   background-color:rgb(153, 184, 104);
   margin:auto;
   border:3px solid white;
-  border-radius: 10px;
+  border-radius: 20px;
   box-shadow: 4px 4px 4px #1c1a19;
 }
 .logos img {
