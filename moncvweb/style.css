@@ -158,12 +158,10 @@ nav a {
   border-radius: 50px;
   box-shadow: 4px 4px 4px #1c1a19;
   border: 5px solid white;
-  margin-top: -200px;
+  margin-top: -250px;
   width: 150px;
 }
-#qualite p img{
-  /* display:none; */
-}
+
 #compeforms {
   display:flex;
   line-height: 1.5em;
@@ -183,6 +181,14 @@ section .gpuce li {
 }
 #qualite p {
   display:none;
+}
+#apropos{
+  margin-top: 80px;
+  background-color: lavender;
+}
+#contact{
+  background-color: lavender;
+  margin-top: 50px;
 }
 @media all and (max-width: 1024px)
 {
@@ -271,6 +277,14 @@ section .gpuce li {
   }
   .identite img{
     display: none;
+  }
+  #apropos{
+    margin-top: 10px;
+   
+  }
+  #contact{
+   
+    margin-top: 5px;
   }
 
 }
