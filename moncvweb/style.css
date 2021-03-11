@@ -154,11 +154,15 @@ nav a {
   display:flex;
   justify-content: center;
 }
-#identite img{
-  border-radius: 100px;
+.identite img{
+  border-radius: 50px;
   box-shadow: 4px 4px 4px #1c1a19;
   border: 5px solid white;
-  margin-top: -100px;
+  margin-top: -200px;
+  width: 150px;
+}
+#qualite p img{
+  /* display:none; */
 }
 #compeforms {
   display:flex;
@@ -177,8 +181,17 @@ section .gpuce li {
   margin-left: 25px;
   margin-right: 25px;
 }
+#qualite p {
+  display:none;
+}
 @media all and (max-width: 1024px)
 {
+  #cventier{
+    width:auto;
+  }
+  #qualite p {
+    display:inherit;
+  }
   #banniere
   {
     display:none; 
@@ -195,13 +208,15 @@ section .gpuce li {
   }
   #corpsducv{
     flex-direction: column;
+    margin-top: 60px;
    
   }
-  #identite img{
+  .identite img{
     float: right;
     margin-top: 0px;
     width: 120px;
   }
+ 
   #asides{
     background:  
     /* url('images/ico_top.png') no-repeat top center,  */
@@ -216,9 +231,15 @@ section .gpuce li {
     flex-direction: column;
   }
   #qualite{
-    background: url("images/ardennes_banniere.jpg") repeat-x center;
-    height: 100px;
+     /* display: flex;  */
+    background: url("images/ardennes_banniere.jpg") no-repeat center;
+    height: 150px;
+    width:auto; 
+    margin:auto;
+    position:relative;
+    padding-right: 80px;
   }
+
   #qualite h1, #qualite h2{
     margin: auto;
     text-align: right;
@@ -236,6 +257,22 @@ section .gpuce li {
     height: 20px ;
     padding-top: 10px;
   }
+   #qualite p img{
+     position: absolute;
+     right: 80px;
+     bottom: -50px;
+    border-radius: 30px;
+    box-shadow: 4px 4px 4px #1c1a19;
+    border: 5px solid white;
+    margin-top: 0px;
+    width:100px;
+    margin-top: 0px;
+    /* float:right; */
+  }
+  .identite img{
+    display: none;
+  }
+
 }
 
 
